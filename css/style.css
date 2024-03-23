@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body{
+    max-width: 86%;
+    margin: 10px auto;
+    font-family: "Lexend", sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.font-size{
+    font-size: 20px;
+}
+
+.logo-div{
+margin-top: 10px;       
+text-align: center;
+}
+
+.logo-div p{
+font-size: 28px;    
+font-weight: 500;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.container-description{
+    width: 700px ;
+    margin: 0 auto;
+}
+
+
+.description{  
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.decription-1{
+    text-align: right;
+    font-size: 25px;
+}
+
+
+.date{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+.certificate-heading{
+    font-size: 30px;
+}
+
+.certificate-grid{
+    margin-top: 40px;
+    gap: 40px;
+    grid-template-columns: 500px 200px;
+}
+
+.Kyu-No{
+    margin-top: 40px;
+    width: 250px;
+    
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.footer-grid{
+    margin-top: 40px;
+    gap: 60px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.footer-logo{
+    width: 263px;
+    height: 80px;
+}
